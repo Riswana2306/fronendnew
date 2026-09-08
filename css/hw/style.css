@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #ff3b00;
+}
+
+header {
+    padding: 20px 8%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 130px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.links button {
+    padding: 14px 20px;
+    border: 2px solid white;
+    border-radius: 12px;
+    background: transparent;
+    color: white;
+    font-weight: bold;
+}
+
+.links .signin {
+    background: black;
+    border-color: black;
+}
+
+main {
+    text-align: center;
+    padding: 70px 8%;
+}
+
+h1 {
+    color: white;
+    font-size: 42px;
+    line-height: 1.2;
+    margin-bottom: 30px;
+}
+
+.search-area {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.location,
+.search {
+    display: flex;
+    align-items: center;
+    background: white;
+    border-radius: 12px;
+    padding: 0 18px;
+    height: 55px;
+}
+
+.location {
+    width: 280px;
+}
+
+.search {
+    width: 330px;
+}
+
+.location input,
+.search input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 100%;
+    font-size: 14px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.card {
+    background: white;
+    width: 280px;
+    height: 230px;
+    border-radius: 25px;
+    padding: 25px;
+    text-align: left;
+    position: relative;
+    overflow: hidden;
+}
+
+.card h2 {
+    color: #1f2937;
+    font-size: 22px;
+}
+
+.card p {
+    color: #777;
+    margin: 8px 0;
+}
+
+.card small {
+    color: #ff3b00;
+    font-weight: bold;
+}
+
+.card img {
+    position: absolute;
+    right: 5px;
+    bottom: 0;
+    width: 130px;
+}
+
+.card button {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    border: none;
+    background: #ff3b00;
+    color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    font-size: 20px;
+}

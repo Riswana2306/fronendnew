@@ -1,0 +1,21 @@
+Name{
+    width: 200px;
+    padding: 50px;
+    border: 3px;
+    margin: auto;
+    background-color: aquamarine;
+
+}
+student{
+    width: 300px;
+    padding: 50px;
+    border: aliceblue;
+    margin-top: 30px;
+    
+}
+apple{
+    background-attachment: fixed;
+    padding: 50px;
+    margin: auto;
+    height: 100px;
+}

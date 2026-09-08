@@ -1,0 +1,8 @@
+.profile {
+    width: 300px;
+     padding: 25px;
+    border: 3px solid rgb(0, 160, 48);
+    margin:auto;
+
+    background-color: lightblue;
+}
