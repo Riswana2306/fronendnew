@@ -1,0 +1,15 @@
+.para{
+    background-color: blanchedalmond;
+    padding:auto;
+    width:120px;
+    height: 200px;
+    border:rgb(11, 212, 212);
+    margin:20px;
+
+}
+.box{
+   align-items:  center;
+   text-align: right;
+   
+}
+    

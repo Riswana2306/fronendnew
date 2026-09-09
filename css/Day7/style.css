@@ -1,0 +1,36 @@
+button{
+    color: white;
+}
+button:first-of-type{
+    background-color: blue;
+}
+button:nth-of-type(2){
+    background-color: beige;
+}
+button {
+    color: azure;
+    button::first-of-type{
+        background-color: blueviolet;
+    }
+    button::nth-of-type(2){
+        background-color: aquamarine;
+    }
+}
+button:nth-last-of-type(3){
+    background-color: blanchedalmond;
+}
+button:first-of-type:hover{
+    background-color: white;
+    color: brown;
+    border: 2px solid blue;
+}
+button:first-of-type(2):hover{
+    background-color: white;
+    color: brown;
+    border: 2px solid blue;
+}
+button:first-of-type(3):hover{
+    background-color: white;
+    color: brown;
+    border: 2px solid blue;
+}
