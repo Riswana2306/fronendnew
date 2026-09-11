@@ -1,0 +1,51 @@
+.profile{
+    background-color:blue;
+    padding: 20px;
+    height: 280;
+   
+    display:flex;
+    align-items: center;
+    gap: 20px;
+
+}
+.product{
+    background-color: brown;
+    padding:40px;
+    height: 280;
+    width: 300px;
+    align-content: center;
+    border-radius:10px;
+    gap: 20px;
+    
+}
+
+
+
+.img{
+    background-color: rgb(112, 77, 24);
+    padding: 40px;
+}
+
+
+@media(max-width:800px){
+    .profile{
+    background-color: rgb(121, 31, 239);
+    padding: 20px;
+   
+    
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(4,1fr);
+
+
+
+    }
+}
+@media(max-width:732px){
+    .profile{
+    background-color: rgb(24, 170, 121);
+    padding: 30px;
+    height: 100;
+    align-items: center;
+    }
+}
