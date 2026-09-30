@@ -97,6 +97,21 @@ console.log("25 is larget Number");
 
 // TASK 6 – STUDENT GRADE
 
+let mark=78;
+if(mark>=90){
+    console.log("Grade A");
+    
+} else if(mark>=75){
+    console.log("Grade B");
+}
+else if(mark>=50){
+    console.log("Grade C");
+}
+else{
+    console.log("Fail");
+    
+}
+
 
 
 
@@ -114,7 +129,6 @@ for(let i=0;i<=20;i++)
 console.log(i)
 }
 
-
 // task 7
 
 for (let i = 1; i <= 50; i++) {
@@ -123,5 +137,22 @@ for (let i = 1; i <= 50; i++) {
     }
 }
 
-
 // task 8
+for (let i=0;i<=52;i++)
+    if(i%3==0){
+    console.log(i);
+    
+    }
+
+    // Task 9
+    let multiple=5;
+    for(let i=0;i<=15;i++){
+        console.log(multiple +"x" +i +"="+(multiple*i));
+        
+    }
+
+
+
+    // task 10
+
+    
