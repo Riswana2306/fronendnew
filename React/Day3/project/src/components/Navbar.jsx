@@ -1,16 +1,15 @@
+
 const Navbar=()=>{
     return(<>
-    <div>
-    <div>
-        <img src="././1jpg" alt="" />
 
+    <div className="nav">
+        <a href=""> My Portfolio||</a>
+        <a href=""> Home||</a>
+        <a href="">About||</a>
+        <a href="">Contact</a>
+        
     </div>
-    <div>
-        <a href="Home"></a>
-        <a href="About"></a>
-        <a href="Service"></a>
-    </div>
-</div>
+
 
 
     </>)

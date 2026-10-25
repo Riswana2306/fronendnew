@@ -1,8 +1,14 @@
-.btn{
-  background-color: aqua;
-  padding: 10px;
-  border-radius: 15px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  border: none;
 
+
+.nav{
+display: flex;
+justify-content: flex-end;
+}
+
+.btn{
+text-align: center;
+text-transform: uppercase;
+  padding: 10px;
+  border: none;
+  color:skyblue
 }
