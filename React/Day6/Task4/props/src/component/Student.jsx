@@ -1,12 +1,12 @@
 
 
-const Student = ({name,age,course}) => {
+const Student = ({myname,myage,mycourse}) => {
   return (
     <>
     <div>
-      <h2>Name:{name}</h2>
-       <h2>Name:{age}</h2>
-        <h2>Name:{course}</h2>
+      <h2>{myname}</h2>
+       <h2>{myage}</h2>
+        <h2>{mycourse}</h2>
     </div>
     </>
   )

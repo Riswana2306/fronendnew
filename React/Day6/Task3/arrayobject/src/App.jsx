@@ -14,9 +14,9 @@ const App = () => {
     <div>
       <table border="1" cellPadding="10">
         <thead>
-           <td>id</td>
-          <td>name</td>
-          <td>salary</td>
+           <th>id</th>
+          <th>name</th>
+          <th>salary</th>
            
         </thead>
         <tbody>
