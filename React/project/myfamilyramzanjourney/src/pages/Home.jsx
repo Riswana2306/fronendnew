@@ -7,7 +7,7 @@ const Home = () => {
       <section className="mx-auto max-w-7xl px-5 py-16">
 
         <h2 className="text-center text-3xl font-bold text-slate-900">
-          My Family Ramzan Special Memories
+          My Family Ramzan Special Memories 2026
         </h2>
 
         <div className="mt-10 grid gap-8 md:grid-cols-3">
@@ -48,7 +48,7 @@ const Home = () => {
             <img src="./kodai.jpeg" alt="Kodaikanal" className="h-56 w-full object-cover" />
 
             <div className="p-6">
-              <h3 className="text-2xl font-bold">🏔️ Kodaikanal</h3>
+              <h3 className="text-2xl font-bold">🍀 Kodaikanal</h3>
               <p className="mt-3 text-gray-600">
                 A beautiful trip filled with nature,
                 travel and unforgettable moments.

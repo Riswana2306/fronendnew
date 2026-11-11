@@ -4,7 +4,7 @@ const  Videos=()=> {
     <div className="bg-slate-50 px-5 py-16">
 
       <h1 className="text-center text-4xl font-bold">
-        🎥 My Videos
+        2026 Ramzan & Kodaikanal Trip- Beautiful Memories
       </h1>
 
       <div className="mx-auto mt-10 grid max-w-5xl gap-8 md:grid-cols-2">
@@ -43,3 +43,7 @@ const  Videos=()=> {
 }
 
 export default Videos;
+
+
+
+
