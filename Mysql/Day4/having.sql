@@ -30,4 +30,9 @@ INSERT INTO emp VALUES
 
 SELECT * FROM emp;
 
+
+select * from emp where department = 'IT'and salary > 30000;
+select * from emp where age between 18 and 25 and city in ('Chennai', 'Madurai');
+
+
 select department,count(*) as total_emp,min(salary) from emp  group by department having min(salary>=30000)

@@ -71,7 +71,7 @@ create table customers (
 );
 alter table customers modify customer_id int not null auto_increment;
  
- insert into customers ( name, email, city, age, registration_date) values ( 'Riswana', 'riswana@gmail.com', 'chennai', 23, now(),('afrin','afrin@gmail.com','coimbatore',);
+ insert into customers ( name, email, city, age, registration_date) values ( 'Riswana', 'riswana@gmail.com', 'chennai', 23, now()),('afrin','afrin@gmail.com','coimbatore');
  select * from customers;
 
 
